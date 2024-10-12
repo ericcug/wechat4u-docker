@@ -1,7 +1,6 @@
 # 使用官方 Node.js 作为基础镜像
 FROM node:lts-alpine3.20
 
-RUN mkdir /app
 # 设置工作目录
 WORKDIR /app
 
@@ -16,4 +15,4 @@ RUN npm install -g typescript ts-node
 RUN npm cache clean --force
 
 # 运行应用程序
-CMD ["ts-node", "/app/index.ts"]
+CMD ["ts-node", "app/index.ts"]
