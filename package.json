@@ -2,10 +2,10 @@
   "name": "wechaty-wechat4u-bot",
   "version": "1.0.1",
   "description": "A Wechaty bot using wechaty-puppet-wechat4u",
-  "main": "app/index.ts",
+  "main": "/app/index.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node app/index.js"
+    "start": "ts-node /app/index.js"
   },
   "dependencies": {
     "@types/qrcode-terminal": "^0.12.2",
