@@ -1,6 +1,6 @@
 {
     "name": "wechaty-wechat4u-bot",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Wechaty bot using wechaty-puppet-wechat4u",
     "main": "app/index.ts",
     "scripts": {
