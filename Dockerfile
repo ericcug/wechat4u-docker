@@ -6,7 +6,7 @@ RUN mkdir /app
 WORKDIR /app
 
 # 复制 package.json 和 package-lock.json 到工作目录
-COPY package.json ./
+COPY package*.json ./
 
 # 安装生产依赖
 RUN npm install
