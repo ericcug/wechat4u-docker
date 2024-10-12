@@ -3,6 +3,7 @@
     "version": "1.0.1",
     "description": "A Wechaty bot using wechaty-puppet-wechat4u",
     "main": "app/index.ts",
+    "type": "module", 
     "scripts": {
       "start": "ts-node app/index.ts"
     },

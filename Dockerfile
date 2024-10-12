@@ -13,5 +13,7 @@ RUN npm install
 
 RUN npm install -g typescript ts-node
 
+RUN npm cache clean --force
+
 # 运行应用程序
 CMD ["ts-node", "/app/index.ts"]
