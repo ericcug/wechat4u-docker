@@ -9,13 +9,9 @@ WORKDIR /app
 COPY package.json ./
 
 # 安装生产依赖
-RUN npm install --production
+RUN npm install
 
 RUN npm install -g typescript ts-node
-
-ENV NODE_ENV=production
-
-RUN npm cache clean --force
 
 # 运行应用程序
 CMD ["ts-node", "/app/index.ts"]
